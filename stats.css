@@ -10,6 +10,7 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(233, 47%, 7%);
+    height: 135vh;
 }
 
 #main{
@@ -91,4 +92,81 @@ h1{
     height: 100%;
     border-top-right-radius: 2vh;
     border-bottom-right-radius: 2vh;
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+    #main{
+        border-radius: 2vh;
+        width: 90%;
+        height: 130vh;
+        margin: 10% 4% 0 5%;
+    }
+
+    h1{
+        padding: 100% 0 6% 12%;
+        font-size: 1.5rem;
+        width: 88%;
+        text-align: center;
+    }
+
+    .p-0{
+        width: 100%;
+        text-align: center;
+        font-size: 0.89rem;
+    }
+
+    .sub-main1 p{
+        margin: 20% 0 0 80%;
+    }
+
+    .sub-main1 .p2{
+        margin: 20% 0 0 88%;
+    }
+
+    .sub-main2 .p1{
+        position: relative;
+        top: -20vh;
+        left: 25vw;
+    }
+
+    .sub-main2 .p2{
+        position: relative;
+        top: -14vh;
+        left: 28vw;
+    }
+
+    .sub-main2 .p3{
+        position: relative;
+        top: -8vh;
+        left: 28vw;
+    }
+
+    .image{
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 2vh;
+        border-top-right-radius: 2vh;
+        width: 100%;
+        height: 30%;
+    }
+
+    .overlay{
+        border-top-left-radius: 2vh;
+        border-top-right-radius: 2vh;
+        border-bottom-right-radius: 0;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 424px){
+    .image{
+        width: 100%;
+        height: 60%;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+    .image{
+        width: 100%;
+        height: 70%;
+    }
 }
