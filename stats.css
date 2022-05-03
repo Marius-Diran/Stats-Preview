@@ -73,15 +73,22 @@ h1{
     color:hsla(0, 0%, 100%, 0.75);
 }
 
-#overlay{
-    background: hsl(277, 64%, 61%);
-}
-
-.img{
+.image{
+    width: 50%;
+    height: 100%;
+    background: url(Images/image-header-desktop.jpg);
+    background-repeat: none;
+    background-size: cover;
     border-bottom-right-radius: 2vh;
     border-top-right-radius: 2vh;
-    width: 50%;
     position: absolute;
     right: 0vw;
     top: 0vw;
+}
+
+.overlay{
+    background-color:hsla(277, 64%, 61%, 0.45);
+    height: 100%;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
 }
