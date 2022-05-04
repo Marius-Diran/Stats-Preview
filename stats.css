@@ -108,7 +108,7 @@ h1{
     height: 100%;
 }
 
- @media (max-width: 374px){
+ @media (max-width: 500px){
     #main{
         border-radius: 1rem;
         width: 90%;
@@ -120,7 +120,7 @@ h1{
         font-size: 1.7rem;
         border: 1px solid red;
         width: 80%;
-        left: 2rem;
+        left: 2.3rem;
         text-align: center;
     }
 
