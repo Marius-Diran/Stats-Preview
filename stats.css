@@ -10,7 +10,6 @@ body{
     font-family: 'Inter', sans-serif;
     font-family: 'Lexend Deca', sans-serif;
     background-color: hsl(233, 47%, 7%);
-    height: 135vh;
 }
 
 #main{
@@ -20,18 +19,17 @@ body{
     position: relative;
     margin: 7.5% 0 0 10%;
     background-color: hsl(244, 38%, 16%);
-    border-radius: 2vh;
-    width: 80%;
-    height: 68.4vh;
+    border-radius: 1rem;
+    width: 79%;
+    height: 28rem;
 }
 
 h1{
     font-size: 2rem;
     color: hsl(0, 0%, 100%);
-    width: 40%;
-    border: 1px solid red;
+    width: 38%;
     position: absolute;
-    top: 3rem;
+    top: 5rem;
     left: 5rem;
 }
 
@@ -40,7 +38,6 @@ h1{
 }
 
 .p-0{
-    border: 1px solid red;
     width: 40%;
     color: hsla(0, 0%, 100%, 0.75);
     position: absolute;
@@ -53,28 +50,63 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
+    font-weight: 700;
     position: relative;
-    top: 10rem;
-    left: -22rem;
-}
-
-.sub-main1 .p1{
-
-}
-
-.sub-main1 .p1{
-    border: 1px solid green;
+    top: 7rem;
+    left: -23.7rem;
+    font-size: 1.4rem;
 }
 
 .sub-main1 .p2{
-    border: 1px solid blue;
+    position: absolute;
+    left: 10rem;
 }
 
 .sub-main1 .p3{
-    border: 1px solid gold;
+    position: absolute;
+    left: 19rem;
 }
 
+.sub-main2{
+    color:hsla(0, 0%, 100%, 0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 9rem;
+    left: -27.3rem;
+
+}
+
+.sub-main2 .p2{
+    position: absolute;
+    left: 10rem;
+}
+
+.sub-main2 .p3{
+    position: absolute;
+    left: 19rem;
+}
+
+.image{
+    background: url(Images/image-header-desktop.jpg);
+    background-repeat: no-repeat;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.overlay{
+    background: hsla(277, 78%, 48%, 0.585);
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    width: 100%;
+    height: 100%;
+}
 /* @media (min-width: 320px) and (max-width: 374px){
     #main{
         border-radius: 2vh;
