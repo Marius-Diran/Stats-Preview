@@ -213,7 +213,7 @@ h1{
     .sub-main1{
         font-size: 1.3rem;
         left: 3rem;
-        top: 10rem;
+        top: 11rem;
     }
 
     .sub-main1 .p2{
@@ -228,7 +228,7 @@ h1{
 
     .sub-main2{
         left: -1.51rem;
-        top: 11.5rem;
+        top: 12.5rem;
     }
 
     .sub-main2 .p2{
@@ -257,7 +257,7 @@ h1{
 
  @media (min-width: 425px) and (max-width: 500px){
     body{
-        height: 62rem;
+        height: 63rem;
     }
 
     #main{
